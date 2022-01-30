@@ -1,0 +1,44 @@
+@import "null.css";
+
+#block_1 {
+	color: red;
+}
+#block_2 {
+	color: black;
+}
+#block_3 {
+	color: grey;
+}
+#block_4 {
+	color: blue;
+}
+#block_5 {
+	color: green;
+}
+
+h1, h2, h3 {
+	color: orangered;
+}
+
+section > p {
+	color: teal;
+}
+
+.text.paragraph {
+	color: steelblue;
+}
+p span {
+	color: red;
+}
+p.plus {
+	color: deeppink;
+}
+.minus {
+	color: purple;
+}
+[class*="-item"] {
+	color: indigo; 
+}
+li.item {
+	color: firebrick;
+}
